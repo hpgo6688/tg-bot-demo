@@ -28,3 +28,10 @@ https://telegram.tools/webhook-manager
 ## bot 调用接口
 
 ![alt text](image-3.png)
+
+
+## 运行bot
+
+```sh
+npm run start
+```
