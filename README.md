@@ -7,6 +7,11 @@ sh script/dev.sh
 # 自动启动ngrok
 # 自动配置.env中webhook地址
 # 下文bot执行时自动设置webhook
+
+
+# 停止上述服务
+
+sh script/stop.sh
 ```
 
 ## 运行 bot
