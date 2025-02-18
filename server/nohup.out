@@ -1,0 +1,188 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /get                      --> main.main.func1 (3 handlers)
+[GIN-debug] POST   /post                     --> main.main.func2 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /get                      --> main.main.func1 (3 handlers)
+[GIN-debug] POST   /post                     --> main.main.func2 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /get                      --> main.main.func1 (3 handlers)
+[GIN-debug] POST   /post                     --> main.main.func2 (3 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2025/02/18 - 20:14:40 | 404 |       1.167µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:14:46 | 404 |         375ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:14:51 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:15:10 | 404 |       1.416µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:15:16 | 404 |       1.917µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:15:21 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:15:40 | 404 |        4.25µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:15:46 | 404 |       1.209µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:15:51 | 404 |       1.375µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:16:10 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:16:16 | 404 |       1.916µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:16:21 | 404 |           2µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:16:40 | 404 |       1.833µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:16:46 | 404 |         792ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:16:51 | 404 |         958ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:17:10 | 404 |       2.083µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:17:16 | 404 |       1.417µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:17:21 | 404 |       2.084µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:17:40 | 404 |           2µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:17:46 | 404 |       2.166µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:17:51 | 404 |       1.208µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:18:10 | 404 |         791ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:18:16 | 404 |       1.209µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:18:21 | 404 |       2.375µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:18:40 | 404 |       1.542µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:18:46 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:18:51 | 404 |         917ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:19:10 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:19:16 | 404 |         792ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:19:21 | 404 |       1.125µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:19:40 | 404 |       1.625µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:19:46 | 404 |       2.125µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:19:51 | 200 |    1.685625ms |       127.0.0.1 | GET      "/get?data=12"
+{12}
+[GIN] 2025/02/18 - 20:19:51 | 200 |       1.102ms |       127.0.0.1 | POST     "/post"
+[GIN] 2025/02/18 - 20:19:51 | 404 |        1.25µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:20:10 | 404 |       1.709µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:20:16 | 404 |       1.166µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:20:21 | 404 |     210.792µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:20:40 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:20:46 | 404 |       1.417µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:20:51 | 404 |       1.542µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:21:10 | 404 |         750ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:21:16 | 404 |       1.125µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:21:21 | 404 |       1.958µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:21:40 | 404 |       1.167µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:21:46 | 404 |         833ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:21:51 | 404 |        1.75µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:22:10 | 404 |       1.125µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:22:16 | 404 |         916ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:22:21 | 404 |       1.667µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:22:40 | 404 |       1.834µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:22:46 | 404 |         625ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:22:51 | 404 |       1.167µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:23:10 | 404 |       1.875µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:23:16 | 404 |       1.959µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:23:21 | 404 |           2µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:23:40 | 404 |         833ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:23:46 | 404 |       1.959µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:23:51 | 404 |        1.75µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:24:00 | 200 |      85.542µs |       127.0.0.1 | GET      "/get?data=%2Fstart"
+{/start}
+[GIN] 2025/02/18 - 20:24:00 | 200 |     168.958µs |       127.0.0.1 | POST     "/post"
+[GIN] 2025/02/18 - 20:24:10 | 404 |         834ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:24:16 | 404 |         750ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:24:21 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:24:40 | 404 |      21.708µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:24:46 | 404 |       2.667µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:24:51 | 404 |       1.875µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:25:10 | 404 |       1.541µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:25:16 | 404 |        2.25µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:25:21 | 404 |       1.167µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:25:40 | 404 |       1.584µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:25:46 | 404 |       1.875µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:25:51 | 404 |         833ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:26:10 | 404 |         916ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:26:16 | 404 |         834ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:26:21 | 404 |           1µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:26:40 | 404 |       1.708µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:26:46 | 404 |       1.041µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:26:51 | 404 |           1µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:27:10 | 404 |         667ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:27:16 | 404 |       1.875µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:27:21 | 404 |       1.375µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:27:40 | 404 |       2.375µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:27:46 | 404 |         791ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:27:51 | 404 |       1.916µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:28:10 | 404 |       2.375µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:28:16 | 404 |       1.208µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:28:21 | 404 |       1.084µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:28:40 | 404 |       1.833µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:28:46 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:28:51 | 404 |       1.166µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:29:10 | 404 |         833ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:29:16 | 404 |       2.084µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:29:21 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:29:40 | 404 |       4.834µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:29:46 | 404 |       2.333µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:29:51 | 404 |       1.083µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:30:10 | 404 |       1.458µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:30:16 | 404 |       1.791µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:30:21 | 404 |       2.417µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:30:40 | 404 |       2.417µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:30:46 | 404 |       1.875µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:30:51 | 404 |         417ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:31:10 | 404 |       1.167µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:31:16 | 404 |       1.958µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:31:21 | 404 |        2.75µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:31:40 | 404 |       1.041µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:31:46 | 404 |       2.125µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:31:51 | 404 |         833ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:32:10 | 404 |       1.708µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:32:16 | 404 |         834ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:32:21 | 404 |           1µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:32:40 | 404 |       5.625µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:32:46 | 404 |           1µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:32:51 | 404 |       1.167µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:33:10 | 404 |       1.084µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:33:16 | 404 |         1.5µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:33:21 | 404 |         958ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:33:40 | 404 |       1.584µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:33:46 | 404 |       1.791µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:33:51 | 404 |       1.583µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:34:10 | 404 |       2.417µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:34:16 | 404 |       2.458µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:34:21 | 404 |       1.416µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:34:40 | 404 |         1.5µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:34:46 | 404 |       1.542µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:34:51 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:35:10 | 404 |       1.875µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:35:16 | 404 |           2µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:35:21 | 404 |       1.083µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:35:40 | 404 |       1.542µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:35:46 | 404 |       2.417µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:35:51 | 404 |       2.375µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:36:10 | 404 |       1.542µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:36:16 | 404 |       1.792µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:36:21 | 404 |       1.667µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:36:40 | 404 |         875ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:36:46 | 404 |       1.083µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:36:51 | 404 |       1.042µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:37:10 | 404 |        1.75µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:37:16 | 404 |       1.167µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:37:21 | 404 |         1.5µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:37:40 | 404 |       1.833µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:37:46 | 404 |       2.458µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:37:51 | 404 |       1.166µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:38:10 | 404 |       1.417µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:38:16 | 404 |      10.833µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:38:21 | 404 |       1.834µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:38:40 | 404 |       2.667µs |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:38:46 | 404 |         833ns |       127.0.0.1 | GET      "/v1/health"
+[GIN] 2025/02/18 - 20:38:51 | 404 |       2.625µs |       127.0.0.1 | GET      "/v1/health"

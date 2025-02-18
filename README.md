@@ -1,37 +1,28 @@
-## 根目录启动go gin
-
-```sh
-npm run api
-```
-
-![alt text](image-5.png)
-
-![alt text](image-4.png)
-
-## 根目录启动ngork
+## 根目录启动 ngork
 
 ```sh
 brew install ngrok
-sh ngrok/conf.sh
+sh script/dev.sh
+# 自动启动go server
+# 自动启动ngrok
+# 自动配置.env中webhook地址
+# 下文bot执行时自动设置webhook
 ```
 
-![alt text](image.png)
-
-## 配置webhook
-
-https://telegram.tools/webhook-manager
-
-![alt text](image-1.png)
-
-![alt text](image-2.png)
-
-## bot 调用接口
-
-![alt text](image-3.png)
-
-
-## 运行bot
+## 运行 bot
 
 ```sh
 npm run start
 ```
+
+## NOTE:
+
+```sh
+setMyCommands # 耗时可能久，注意看控制台输出
+```
+
+![alt text](image.png)
+
+## bot 调用接口
+
+![alt text](image-3.png)
